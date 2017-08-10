@@ -189,12 +189,12 @@ bottom:639px;
 #beaklight {
 	width: 0;
 	height: 0;
-	border-left: 25px solid transparent;
+	border-left: 1px solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 50px solid black;
+	border-top: 1px solid black;
   position: relative;
 	z-index: 4;
-	left: 180px;
-	bottom: 630px;
+	left: 200px;
+	bottom: 610px;
 
 }
