@@ -224,14 +224,14 @@ bottom:639px;
 }
 
 
-#leaf1-1 {
+/*#leaf1-1 {
    display:block;
-   width: 140px;
-   height: 100px;
+   width: 110px;
+   height: 90px;
    background-color: #26ab87;
-   -webkit-border-radius: 1800px 1200px 1800px 1200px / 800px 1500px 100px 1500px;
+   -webkit-border-radius: 1800px 1200px 1800px 1200px / 800px 1500px 1500px 1500px;
    /*border-radius:         50%  50%  50%  50%  / 40%   40%   60%  60%;*/
-  position: relative;
+/*position: relative;
 	border-top: 2px solid black;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
@@ -241,15 +241,33 @@ bottom:770px;
 
 
 }
+*/
 
-#leaf2-1 {
+
+/*
+#leaf1-2 {
+	width: 3px;
+	height: 3px;
+	border-top: 25px solid black;
+	border-left: 45px solid #26ab87;
+	border-bottom: 15px solid transparent;
+   -webkit-border-radius: 1500px 1500px 100px 100px / 1000px 1000px 100px 100px;
+	position:relative;
+		 -webkit-transform: rotate(110deg);
+	z-index: 5;
+	margin: 0;
+left: 320px;
+bottom:845px;
+}*/
+
+/*#leaf2 {
    display:block;
    width: 110px;
    height: 90px;
    background-color: #26ab87;
    -webkit-border-radius: 1000px 1800px 1200px 1800px / 1500px 800px 1500px 100px;
    /*border-radius:         50%  50%  50%  50%  / 40%   40%   60%  60%;*/
-  position: relative;
+/*position: relative;
 	border-top: 2px solid black;
 	border-left: 2px solid black;
 	border-bottom: 2px solid black;
@@ -257,10 +275,10 @@ z-index: 4;
 left:90px;
 bottom: 890px;
 
-}
+}*/
 
 
-/*#leaf1-1 {
+#leaf1-1 {
 	float: left;
 	width: 400px;
 	height: 400px;
@@ -269,60 +287,18 @@ bottom: 890px;
 	shape-image-threshold: 0.5;
 	background: #24ab87 url("leaf.png");
 	mask-image: url("leaf.png");
-}*/
+}
 
 
 #beaklight {
-  width: 9px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  box-shadow: 5px 5px 0 0 #e89b74;
+  box-shadow: 10px 10px 0 0 red;
 	z-index: 4;
 	position: relative;
-	 -webkit-transform: rotate(140deg);
-	left:200px;
-	bottom: 638px;
+	 -webkit-transform: rotate(65deg);
+	left:180px;
+	bottom: 660px;
 	margin: 0;
-}
-
-#beakLINE {
-  width: 10px;
-  height: 28px;
-  border-radius: 50%;
-  box-shadow: 3px 3px 0 0 black;
-	z-index: 5;
-	position: relative;
-	 -webkit-transform: rotate(140deg);
-	left:202px;
-	bottom: 1001px;
-	margin: 0;
-}
-
-#beakshadow {
-  width: 89px;
-  height: 61px;
-  border-radius: 50%;
-  box-shadow: 5px 15px 0 0 #cecfc8;
-	z-index: 4;
-	position: relative;
-	 -webkit-transform: rotate(332deg) scaleX(-1);
-	left:174px;
-	bottom: 1086px;
-	margin: 0;
-}
-
-
-#bodylight1 {
-   display:block;
-   width: 126px;
-   height: 180px;
-   background-color: red;
-   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
-   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
-position: relative;
-z-index: 0;
-margin: 0;
-right: 200px;
-bottom: 700px;
-
 }
