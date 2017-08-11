@@ -222,3 +222,22 @@ bottom:639px;
 	left:700px;
 	bottom:400px;
 }
+
+
+#leaf1 {
+   display:block;
+   width: 190px;
+   height: 126px;
+   background-color: #26ab87;
+   -webkit-border-radius: 100px 500px 300px 200px / 100px 100px 100px 100px;
+   /*border-radius:         50%  50%  50%  50%  / 40%   40%   60%  60%;*/
+position: relative;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+z-index: 4;
+left:230px;
+bottom:770px;
+
+
+}
