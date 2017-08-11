@@ -83,7 +83,7 @@ bottom: 255px;
 
 
 #eye1 {
-	width: 70px;
+	width: 60px;
 	height: 100px;
 	background: #383632;
 	-moz-border-radius: 70px / 100px;
@@ -99,7 +99,7 @@ bottom: 255px;
 
 
 #eye2 {
-	width: 70px;
+	width: 60px;
 	height: 100px;
 	background: #383632;
 	-moz-border-radius: 70px / 100px;
@@ -125,7 +125,7 @@ bottom: 255px;
 	border: 2px solid black;
 	position: relative;
   margin: 0px;
-	left: 95px;
+	left: 90px;
 	bottom: 575px;
 	z-index: 4;
 
@@ -141,7 +141,7 @@ bottom: 255px;
 	border: 2px solid black;
 	position: relative;
   margin: 0px;
-	left: 315px;
+	left: 310px;
 	bottom: 615px;
 	z-index: 4;
 
@@ -226,18 +226,34 @@ bottom:639px;
 
 #leaf1 {
    display:block;
-   width: 190px;
-   height: 126px;
+   width: 110px;
+   height: 90px;
    background-color: #26ab87;
-   -webkit-border-radius: 100px 500px 300px 200px / 100px 100px 100px 100px;
+   -webkit-border-radius: 1800px 1000px 1800px 1200px / 800px 1500px 100px 1500px;
    /*border-radius:         50%  50%  50%  50%  / 40%   40%   60%  60%;*/
 position: relative;
 	border-top: 2px solid black;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
 z-index: 4;
-left:230px;
+left:220px;
 bottom:770px;
 
+}
+
+#leaf2 {
+   display:block;
+   width: 110px;
+   height: 90px;
+   background-color: #26ab87;
+   -webkit-border-radius: 1000px 1800px 1200px 1800px / 1500px 800px 1500px 100px;
+   /*border-radius:         50%  50%  50%  50%  / 40%   40%   60%  60%;*/
+position: relative;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+z-index: 4;
+left:90px;
+bottom: 890px;
 
 }
