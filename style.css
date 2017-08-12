@@ -10,7 +10,7 @@ background-size: 100% ;
 	-webkit-border-radius: 250px;
 	border-radius: 250px;
 	position: relative;
-	z-index: 0;
+	z-index: 1;
   margin:auto;
 	border-top:2px solid black;
 	border-left: 2px solid black;
@@ -30,7 +30,7 @@ background-size: 100% ;
 position: relative;
 right: 80px;
 top:70px;
-z-index: 1;
+z-index: 2;
 	float:right;
 
 }
@@ -45,7 +45,7 @@ z-index: 1;
 	position: relative;
 left: 20px;
 top:70px;
-	z-index: 1;
+	z-index: 2;
   margin:0;
 }
 
@@ -214,18 +214,23 @@ bottom:639px;
 
 
 
-#feather1 {
+#featherT {
+	display: hide;
 	width: 100px;
 	height: 200px;
-	background: #c7937b;
-	-moz-border-radius: 50px / 100px;
-	-webkit-border-radius: 50px / 100px;
-	border-radius: 50px / 100px;
+	background: white;
+	-moz-border-radius: 20px / 100px;
+	-webkit-border-radius: 20px / 100px;
+	border-radius: 20px / 100px;
+	-webkit-transform: rotate(-130deg);
+	/*border-top: solid 1px #d1a386;
+	border-left: solid 1px black;
+	border-right: solid 1px black;*/
 	position: relative;
 	z-index: 2;
 	margin: 0;
-	left:700px;
-	bottom:400px;
+	left:0px;
+	bottom:0px;
 }
 
 
@@ -323,39 +328,103 @@ bottom: 1255px;
 
  #leafSW1 {
 	 width: 70px;
-	 height: 100px;
+	 height: 101px;
 	  border-radius: 50%;
-	 box-shadow: 16px 16px 0 0 #268072;
+	 box-shadow: 18px 18px 0 0 #268072;
 	  -webkit-transform: rotate(137deg);
 		position: relative;
 		z-index: 5;
 		margin:0;
 		left:249px;
-		bottom:1173px;
+		bottom:1175px;
   }
 
 	#leafSW2 {
-		width: 100px;
+		width: 101px;
 		height: 70px;
 		 border-radius: 50%;
-		box-shadow: 16px 16px 0 0 #268072;
+		box-shadow: 18px 18px 0 0 #268072;
 		 -webkit-transform: rotate(-45deg);
 		 position: relative;
 		 z-index: 5;
 		 margin:0;
-		 left:113px;
-		 bottom:1259px;
+		 left:111px;
+		 bottom:1261px;
 	 }
 
 	 #leafLINE1 {
 	   width: 10px;
-	   height: 28px;
+	   height: 35px;
 	   border-radius: 50%;
 	   box-shadow: 3px 3px 0 0 black;
 	 	z-index: 5;
 	 	position: relative;
-	 	 /*-webkit-transform: rotate(140deg);*/
-	 	left:202px;
-	 	bottom: 1300px;
+	 	 -webkit-transform: rotate(90deg) scale(-1);
+	 	left:260px;
+	 	bottom: 1325px;
 	 	margin: 0;
+	 }
+
+
+	 #leafLINE2 {
+	   width: 10px;
+	   height: 35px;
+	   border-radius: 50%;
+	   box-shadow: 3px 3px 0 0 black;
+	 	z-index: 5;
+	 	position: relative;
+	 	 -webkit-transform: rotate(-270deg) scale(-1);
+	 	left:170px;
+	 	bottom: 1360px;
+	 	margin: 0;
+	 }
+
+
+	 #leaflight {
+	 	width: 60px;
+	 	height: 45px;
+	 	background: #66bda1;
+	 	-moz-border-radius: 50px;
+	 	-webkit-border-radius: 50px;
+	 	border-radius: 50px;
+		border: 5px soild #4eb594;
+		position: relative;
+		z-index: 5;
+		left:104px;
+		bottom: 1422px;
+	 }
+
+	 #feather1 {
+	 	display: hide;
+	 	width: 100px;
+	 	height: 150px;
+	 	background: #c7937b;
+	 	-moz-border-radius: 50px / 100px;
+	 	-webkit-border-radius: 50px / 100px;
+	 	border-radius: 50px / 100px;
+	 	/*-webkit-transform: rotate(-130deg);*/
+	 	border-top: solid 1px #d1a386;
+	 	border-left: solid 1px black;
+	 	border-right: solid 1px black;
+	 	position: relative;
+	 	z-index: 0;
+	 	margin: 0;
+	 	left:59px;
+	 	bottom:1450px;
+	 }
+
+	 #feather1fix {
+	 	width: 100px;
+	 	height: 200px;
+	 	background: #c7937b;
+	 	-moz-border-radius: 50px / 100px;
+	 	-webkit-border-radius: 50px / 100px;
+	 	border-radius: 50px / 100px;
+	 	position: relative;
+		border-bottom: solid 1px black;
+	 	z-index: 0;
+	 	margin: 0;
+	 	left:0px;
+	 	bottom:1600px;
+
 	 }
