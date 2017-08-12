@@ -14,15 +14,15 @@
 
 
 #circleface1 {
-	width: 230px;
-	height: 260px;
-	background: #FFF;
+	width: 250px;
+	height: 270px;
+	background: #F5F4F4;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
   margin:auto;
 position: relative;
-right: 80px;
+right: 70px;
 top:70px;
 z-index: 1;
 	float:right;
@@ -30,9 +30,9 @@ z-index: 1;
 }
 
 #circleface2 {
-	width: 230px;
-	height: 260px;
-	background: #FFF;
+	width: 250px;
+	height: 270px;
+	background: #F5F4F4;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -41,6 +41,19 @@ left: 20px;
 top:70px;
 	z-index: 2;
   margin:0;
+}
 
+#topBeak {
+	display: block;
+   width: 116px;
+   height: 170px;
+   background-color: #fff;
+	 border: solid 5px black;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+	 z-index: 3;
+	 margin: 0;
+	 left:50px;
+	 bottom:50px;
 
 }
